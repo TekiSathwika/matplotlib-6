@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+x=[1,2,3,4,5]
+y=[3,8,1,10,5]
+plt.plot(x,y,'c-o')
+plt.title("Line Plot with markers and colors")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.xlim(0,6)
+plt.ylim(0,12)
+plt.grid(True)
+plt.show()
